@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <title>jQuery-Demo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="jquery.js"></script>
+  <style type="text/css">
+table {border-collapse: collapse;}
+th, td {border: 1px solid grey; padding: 1ex;}
+th {background-color: lightblue;}
+td:first-of-type, td:last-of-type {background-color: yellow;}
+  </style>
+ </head>
+
+ <body>
+  <h1 style="display: block;">Editierbare Tabelle</h1>
+  <table>
+   <tbody><tr>
+    <th>Produkt</th>
+	  <th>Q1</th>
+	  <th>Q2</th>
+	  <th>Q3</th>
+	  <th>Q4</th>
+	  <th>Summe</th>
+	 </tr>
+	 <tr>
+	  <td>Zeitschrift</td>
+	  <td><span contenteditable="true">115</span></td>
+	  <td><span contenteditable="true">120</span></td>
+	  <td style="outline: 0px none;"><span contenteditable="true">130</span></td>
+	  <td><span contenteditable="true">125</span></td>
+	  <td></td>
+	 </tr>
+	 <tr>
+	  <td>App</td>
+	  <td><span contenteditable="true">85</span></td>
+	  <td><span contenteditable="true">90</span></td>
+	  <td style="outline: 0px none;"><span contenteditable="true">70</span></td>
+	  <td style="outline: 0px none;"><span contenteditable="true">80</span></td>
+	  <td></td>
+	 </tr>
+	 <tr>
+	  <td>Web</td>
+	  <td><span contenteditable="true">150</span></td>
+	  <td><span contenteditable="true">140</span></td>
+	  <td><span contenteditable="true">144</span></td>
+	  <td style="outline: 0px none;"><span contenteditable="true">160</span></td>
+	  <td></td>
+	 </tr>
+	</tbody></table>
+  <script type="text/javascript" src="app.js">
+  </script>
+  <p></p>
+ </body>
+</html>
